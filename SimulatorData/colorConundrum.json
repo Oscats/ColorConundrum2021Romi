@@ -1,0 +1,10 @@
+{
+    "game" : "Color Conundrum",
+    "field-image" : "Color+Conundrum+Dimensional+Mat.png",
+    "field-corners": {
+        "top-left" : [109, 108],
+        "bottom-right" : [1454, 780]
+    },
+    "field-size" : [2.28, 1.14],
+    "field-unit" : "meters"
+}
