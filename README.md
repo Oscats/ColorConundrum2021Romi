@@ -1,6 +1,9 @@
-# Romi Trajectory
+# Color Conundrum 2021 Romi
+
 
 ## Description
+This is the code we used for the NE First Color Conundrum challenge.
+
 This Repository is a modified version of the incredible work that @zhiquanyeo created to help us all learn how to use trajectories. Without him, we would be at a bit of a loss. You can access his repository [directly](https://github.com/bb-frc-workshops/romi-examples).
 
 Note that all the constants used here assume that characterization has been done using meters as units. Additionally, all coordinates/distances are specified in inches, and output to meters using the `Units.inchesToMeters()` method.
