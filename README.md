@@ -20,7 +20,7 @@ Perhaps the next step to extend this further would be to add a sensor or vision 
     
 
 ## Additional Code Setup
-We have created a few handy convenience features that allow you to easily imput and test waypoints.
+We have created a few handy convenience features that allow you to easily input and test waypoints.
 - [AddWaypoints()](src/main/java/frc/robot/Waypoints.java) Create a new list(or modify the existing one) of waypoints and starting and ending poses.
 - [PlotTrajectory() Command](src/main/java/frc/robot/commands/PlotTrajectory.java) While not needing much editing, this command allows you to visualize the trajectory using the Field2d() class. You can use it to fine-tune your wyapoints and starting and ending poses. It is set as an option for the Autonomous selcetor in [RobotContainer()](src/main/java/frc/robot/RobotContainer.java). You can access it by using shuffleboard, or the Sendable Chooser in Glass or the Simulator Window.
 - [FindNewTrajectoryRuntime() Command](src/main/java/frc/robot/commands/FindNewTrajectoryRuntime.java) Use the following smartdashboard entries to create a trajectory that you can move around the screen.
